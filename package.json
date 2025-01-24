@@ -3,7 +3,7 @@
   "productName": "snowden-disk",
   "version": "1.0.0",
   "description": "My Electron application description",
-  "main": ".vite/build/main.js",
+  "main": ".vite/build/main/index.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -22,11 +22,17 @@
     "@electron-forge/plugin-vite": "^7.6.1",
     "@electron/fuses": "^1.8.0",
     "@types/electron-squirrel-startup": "^1.0.2",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
     "electron": "34.0.1",
     "eslint": "^8.0.1",
     "eslint-plugin-import": "^2.25.0",
+    "prettier": "^3.4.2",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "prettier-plugin-packagejson": "^2.5.8",
     "ts-node": "^10.0.0",
     "typescript": "~4.5.4",
     "vite": "^5.0.12"
@@ -38,6 +44,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.1"
+    "electron-squirrel-startup": "^1.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
