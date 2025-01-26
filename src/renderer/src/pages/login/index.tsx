@@ -60,7 +60,9 @@ const Login: React.FC = () => {
             </Button>
           </Form.Item>
           <RegisterFormItem>
-            <Button block>注册</Button>
+            <Button block onClick={() => navigate('/register')}>
+              注册
+            </Button>
           </RegisterFormItem>
         </Form>
       </LoginBox>
